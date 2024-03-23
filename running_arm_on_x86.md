@@ -1,7 +1,7 @@
 # Compiling and Running ARM Binaries on X86_64 (linux)
 
-## Installing necessary tools
-Download and install necessary tool chains, as well as qemu.
+## Installing the Necessary Tools
+Install the arm toolchain and qemu.
 
 On Arch linux:
 
@@ -9,6 +9,7 @@ On Arch linux:
 $ sudo pacman -S arm-none-eabi-{gcc,binutils,gdb}
 $ sudo pacman -S qemu-full
 ```
+
 ## Assembling and Linking Assembly files (static binaries)
 
 ```shell

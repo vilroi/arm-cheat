@@ -4,7 +4,7 @@ The thumb instruction set is a "subset" of the ARM instruction set.
 
 While ARM uses 4 bytes for each instruction, thumb only uses 2 bytes.
 
-The reduction of instruction size leads to less memory usage, but has the disadvantage of not being able to use all of the instructions available.
+The reduction of instruction size leads to less memory usage, but has the disadvantage of not being able to use all of the instructions.
 
 (In reality there are probably many other pros and cons. I will research them some time in the future.)
 
@@ -45,7 +45,7 @@ _start:
 
 ```shell
 00008000 <_start>:
-    8000:       e3a00020        mov     r0, #32
+    8000:       e3a00020        mov     r0, #32         <--- 4 byte instructions
     8004:       e3a07001        mov     r7, #1
     8008:       ef000000        svc     0x00000000
 ```
