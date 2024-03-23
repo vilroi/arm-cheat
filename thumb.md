@@ -14,7 +14,7 @@ Here is a comparison of the disassembly of the same code assembled with ARM and 
 
 ### "ARM" Assembly 
 
-```asm
+```assembly
 // arm-exit.S
 .global _start
 
@@ -28,7 +28,7 @@ _start:
 
 For the thumb variant, the *.thumb* and *.thumb_func* macro is added.
 
-```asm
+```assembly
 // thumb-exit.S
 .global _start
 .thumb
