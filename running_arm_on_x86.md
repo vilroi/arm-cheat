@@ -35,7 +35,7 @@ The *-g* option specifies a port number for gdb to connect to.
 $ qemu-arm -g 4444 file       
 ```
 
-Starting GDB:
+Starting GDB (with gef):
 
 ```shell
 $ arm-none-eabi-gdb file
