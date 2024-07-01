@@ -8,6 +8,7 @@ Each subsequent `t`s and `e` adds an additional condition
 
 Example:
 ```asm
+800020e:       2b50            cmp     r3, #80 @ 0x50
 8000210:       bf01            itttt   eq
 8000212:       4a03            ldreq   r2, [pc, #12]   @ (8000220 <sv_call_handler+0x1c>)
 8000214:       6953            ldreq   r3, [r2, #20]
