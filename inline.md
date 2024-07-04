@@ -6,8 +6,7 @@ This allows the programmer to do some cool stuff, like making raw syscalls witho
 
 My most recent use-case has been to write and test ARM assembly instructions by loading it onto a micro-controller, however.
 
-I had recently 
-
+Example:
 ```c
 int 
 main(void)
